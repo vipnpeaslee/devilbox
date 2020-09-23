@@ -2,6 +2,8 @@
     <h1 align="center">The Devilbox</h1>
 </p>
 
+[VIP Auto Fork](#vip-fork)
+
 ![Devilbox](docs/img/banner.png)
 
 **[Usage](#usage)** |
@@ -33,6 +35,10 @@
 <img width="200" style="width:200px;" src="docs/_includes/figures/https/https-ssl-address-bar.png" /><br/>
 <small><sub>Support for <a href="https://devilbox.readthedocs.io/en/latest/intermediate/setup-valid-https.html">valid https</a> out of the box.</sub></small>
 
+## VIP Fork
+The VIP Fork is customized for the VIP Auto software development team.
+
+## What is Devilbox?
 The Devilbox is a modern and highly customisable **dockerized PHP stack** supporting full **LAMP**
 and **MEAN** and running on all major platforms.  The main goal is to easily switch and combine
 any version required for local development. It supports an **unlimited number of projects** for
