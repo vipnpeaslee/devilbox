@@ -341,7 +341,7 @@ services:
       - ${DEVILBOX_PATH}/cfg/${MYSQL_SERVER}:/etc/mysql/docker-default.d:ro${MOUNT_OPTIONS}
 
       # Mount MySQL Data directory
-      - devilbox-${MYSQL_SERVER}:/var/lib/mysql:rw${MOUNT_OPTIONS}
+      - ${HOST_PATH_MYSQL_DATADIR}:/var/lib/mysql:rw${MOUNT_OPTIONS}
 
     depends_on:
       - bind

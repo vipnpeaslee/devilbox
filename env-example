@@ -96,7 +96,7 @@ LOCAL_LISTEN_ADDR=
 ###   TLD_SUFFIX=local
 ### Makes your project available under xxxx.local
 ###
-TLD_SUFFIX=loc
+TLD_SUFFIX=local
 
 
 ###
@@ -441,6 +441,15 @@ MOUNT_OPTIONS=
 ###
 HOST_PATH_HTTPD_DATADIR=./data/www
 
+###
+### Local filesystem path to database.
+###
+### Note: When changing this variable you must re-create the container.
+###       Simply remove it, it will be auto-created during the next start:
+###
+### $ docker-compose rm -f
+###
+HOST_PATH_MYSQL_DATADIR=~/mysql
 
 ###
 ### The path on your host OS of the ssh directory to be mounted into the
@@ -545,7 +554,7 @@ HTTPD_VHOST_SSL_TYPE=both
 ###
 ### When changing this value, restart the devilbox.
 ###
-HTTPD_DOCROOT_DIR=htdocs
+HTTPD_DOCROOT_DIR=public
 
 
 ###
